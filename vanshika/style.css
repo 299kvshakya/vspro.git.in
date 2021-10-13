@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contact_form{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact_form2{
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.651);
+    background: transparent;
+}
+#btn{
+    width: 100%;
+    border: .2rem solid green;
+    color: grey;
+}
+#btn:hover{
+    background-color: green;
+    color: white;
+}
